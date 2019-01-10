@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbolLibrary xmlns="http://www.metacase.com/symbol" xmlns:sym="http://www.metacase.com/symbol">
+	<librarySymbol name="Assumption">
+		<objectSymbol offset="40,20" scaleFilter="1,1">
+			<defaultConnectable isSticky="true" points="40,20 60,20 60,40 40,40 40,20" targetPointX="50" targetPointY="30" usesGrid="false"></defaultConnectable>
+			<svg baseProfile="tiny" height="40" version="1.2" width="60" xmlns="http://www.w3.org/2000/svg">
+				<textArea display-align="after" fill="rgb(0,0,0)" font-family="#sans serif" font-size="18" font-style="normal" font-weight="bold" height="20" sym:characterBackgroundFill="none" sym:textboxFill="none" sym:textboxStroke="none" sym:textboxStroke-width="1" sym:wordWrap="true" text-anchor="end" width="20" x="40" y="20">
+					A
+					<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+				</textArea>
+			</svg>
+		</objectSymbol>
+	</librarySymbol>
+	<librarySymbol name="ContextIdentifier">
+		<objectSymbol offset="50,50" scaleFilter="1,1">
+			<defaultConnectable isSticky="true" points="50,50 170,50 170,70 50,70 50,50" targetPointX="110" targetPointY="60" usesGrid="false"></defaultConnectable>
+			<svg baseProfile="tiny" height="70" version="1.2" width="170" xmlns="http://www.w3.org/2000/svg">
+				<textArea display-align="center" fill="rgb(0,0,0)" font-family="#sans serif" font-size="14" font-style="normal" font-weight="normal" height="20" sym:characterBackgroundFill="none" sym:textboxFill="rgb(255,255,255)" sym:textboxStroke="rgb(0,0,0)" sym:textboxStroke-width="1" sym:wordWrap="false" text-anchor="start" width="120" x="50" y="50">
+					ReportTextSource:'	' 
+do :Context { 
+	:Identifier
+	if not :Public?; then
+		' not public!'
+	endif
+}
+
+					<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+				</textArea>
+				<template aligmentPointX="1" aligmentPointY="0.5" isMovable="false" revealConnectables="false" rotation="false" scaleFilter="0,0" subsymbolExtentX="20" subsymbolExtentY="20" useTargetpoint="false" width="1" xmlns="http://www.metacase.com/symbol">
+					<pathLayout allocation="start" layoutDistance="40" lineSegmentTable="" points="50,60" startDistance="0">
+						<layoutPath allocation="start" layoutDistance="9999" lineSegmentTable="true" points="0,0 120,0" startDistance="20"></layoutPath>
+					</pathLayout>
+					<generatorNPSource>type</generatorNPSource>
+					<librarySubsymbolSource>ModuleIcon</librarySubsymbolSource>
+					<metaInfo></metaInfo>
+				</template>
+			</svg>
+		</objectSymbol>
+	</librarySymbol>
+	<librarySymbol name="Justification">
+		<objectSymbol offset="50,30" scaleFilter="1,1">
+			<defaultConnectable isSticky="true" points="50,30 70,30 70,50 50,50 50,30" targetPointX="60" targetPointY="40" usesGrid="false"></defaultConnectable>
+			<svg baseProfile="tiny" height="50" version="1.2" width="70" xmlns="http://www.w3.org/2000/svg">
+				<textArea display-align="after" fill="rgb(0,0,0)" font-family="#sans serif" font-size="18" font-style="normal" font-weight="bold" height="20" sym:characterBackgroundFill="none" sym:textboxFill="none" sym:textboxStroke="none" sym:textboxStroke-width="1" sym:wordWrap="true" text-anchor="end" width="20" x="50" y="30">
+					J
+					<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+				</textArea>
+			</svg>
+		</objectSymbol>
+	</librarySymbol>
+	<librarySymbol name="ModuleIcon">
+		<objectSymbol offset="50,20" scaleFilter="1,1">
+			<defaultConnectable isSticky="true" points="50,20 70,20 70,40 50,40 50,20" targetPointX="60" targetPointY="30" usesGrid="false"></defaultConnectable>
+			<svg baseProfile="tiny" height="40" version="1.2" width="70" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<linearGradient gradientUnits="objectBoundingBox" id="gradient1" sym:correctGamma="true" x1="0.4" x2="0.72" y1="0.545455" y2="-0.181818">
+						<stop offset="0" stop-color="rgb(255,255,255)"></stop>
+						<stop offset="1" stop-color="rgb(255,255,224)"></stop>
+					</linearGradient>
+					<linearGradient gradientUnits="objectBoundingBox" id="gradient2" sym:correctGamma="true" x1="0.00666697" x2="0.886667" y1="0.0250001" y2="1.2375">
+						<stop offset="0" stop-color="rgb(255,255,255)"></stop>
+						<stop offset="1" stop-color="rgb(255,245,160)"></stop>
+					</linearGradient>
+					<radialGradient cx="0.5" cy="0.5" gradientUnits="objectBoundingBox" id="gradient3" r="0.707107" sym:correctGamma="true" sym:fillType="PathFill">
+						<stop offset="0" stop-color="rgb(255,255,255)"></stop>
+						<stop offset="1" stop-color="rgb(255,255,224)"></stop>
+					</radialGradient>
+				</defs>
+				<rect fill="none" height="20" rx="0" ry="0" stroke="none" stroke-width="1" width="20" x="50" y="20">
+					<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+				</rect>
+				<g fill="none" stroke="none" stroke-width="1" sym:height="12" sym:width="16" sym:x="5.2e1" sym:y="2.3e1">
+					<rect fill="url(#gradient1)" height="2.93333" rx="11" ry="9" stroke="rgb(255,143,16)" stroke-width="1" width="5.29412" x="52.5294" y="23">
+						<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+					</rect>
+					<rect fill="url(#gradient2)" height="10.6667" rx="0" ry="0" stroke="rgb(255,143,16)" stroke-width="1" width="15.8824" x="52" y="24.3333">
+						<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+					</rect>
+					<rect fill="url(#gradient3)" height="0.133335" rx="0" ry="0" stroke="rgb(255,255,224)" stroke-width="1" width="4.97648" x="52.7412" y="24.2">
+						<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+					</rect>
+					<polygon fill="none" points="52.9412,35 68,35 67.8893,27.6154 59.8173,27.6154 54.9342,27.6154" stroke="rgb(255,128,0)" stroke-width="1">
+						<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+					</polygon>
+					<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+				</g>
+			</svg>
+		</objectSymbol>
+	</librarySymbol>
+	<librarySymbol name="ModuleIdentifier">
+		<objectSymbol offset="40,30" scaleFilter="1,1">
+			<defaultConnectable isSticky="true" points="40,30 160,30 160,50 40,50 40,30" targetPointX="100" targetPointY="40" usesGrid="false"></defaultConnectable>
+			<svg baseProfile="tiny" height="50" version="1.2" width="160" xmlns="http://www.w3.org/2000/svg">
+				<template aligmentPointX="1" aligmentPointY="0.5" isMovable="false" revealConnectables="false" rotation="false" scaleFilter="0,0" subsymbolExtentX="20" subsymbolExtentY="20" useTargetpoint="false" width="1" xmlns="http://www.metacase.com/symbol">
+					<pathLayout allocation="start" layoutDistance="40" lineSegmentTable="" points="40,40" startDistance="0">
+						<layoutPath allocation="start" layoutDistance="9999" lineSegmentTable="true" points="0,0 120,0" startDistance="20"></layoutPath>
+					</pathLayout>
+					<generatorNPSource>type</generatorNPSource>
+					<librarySubsymbolSource>ModuleIcon</librarySubsymbolSource>
+					<metaInfo></metaInfo>
+				</template>
+				<textArea display-align="center" fill="rgb(0,0,0)" font-family="#sans serif" font-size="14" font-style="normal" font-weight="normal" height="20" sym:characterBackgroundFill="none" sym:textboxFill="none" sym:textboxStroke="rgb(0,0,0)" sym:textboxStroke-width="1" sym:wordWrap="false" text-anchor="start" width="120" x="40" y="30">
+					ReportTextSource:'	' 
+do :Goal { 
+	:Identifier;
+	if not :Public?; then
+		' not public!'
+	endif
+}
+
+					<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+				</textArea>
+			</svg>
+		</objectSymbol>
+	</librarySymbol>
+	<librarySymbol name="OptionAnnotation">
+		<objectSymbol offset="20,20" scaleFilter="1,1">
+			<defaultConnectable isSticky="true" points="20,20 90,20 90,60 20,60 20,20" targetPointX="55" targetPointY="40" usesGrid="false"></defaultConnectable>
+			<svg baseProfile="tiny" height="60" version="1.2" width="90" xmlns="http://www.w3.org/2000/svg">
+				<textArea display-align="center" fill="rgb(0,0,0)" font-family="#sans serif" font-size="14" font-style="normal" font-weight="normal" height="40" sym:characterBackgroundFill="none" sym:textboxFill="none" sym:textboxStroke="none" sym:textboxStroke-width="1" sym:wordWrap="true" text-anchor="start" width="70" x="20" y="20">
+					ReportTextSource:id
+					<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+				</textArea>
+			</svg>
+		</objectSymbol>
+	</librarySymbol>
+	<librarySymbol name="SolutionIdentifier">
+		<objectSymbol offset="60,90" scaleFilter="1,1">
+			<defaultConnectable isSticky="true" points="60,90 180,90 180,110 60,110 60,90" targetPointX="120" targetPointY="100" usesGrid="false"></defaultConnectable>
+			<svg baseProfile="tiny" height="110" version="1.2" width="180" xmlns="http://www.w3.org/2000/svg">
+				<template aligmentPointX="1" aligmentPointY="0.5" isMovable="false" revealConnectables="false" rotation="false" scaleFilter="0,0" subsymbolExtentX="20" subsymbolExtentY="20" useTargetpoint="false" width="1" xmlns="http://www.metacase.com/symbol">
+					<pathLayout allocation="start" layoutDistance="40" lineSegmentTable="" points="60,100" startDistance="0">
+						<layoutPath allocation="start" layoutDistance="9999" lineSegmentTable="true" points="0,0 120,0" startDistance="20"></layoutPath>
+					</pathLayout>
+					<generatorNPSource>type</generatorNPSource>
+					<librarySubsymbolSource>ModuleIcon</librarySubsymbolSource>
+					<metaInfo></metaInfo>
+				</template>
+				<textArea display-align="center" fill="rgb(0,0,0)" font-family="#sans serif" font-size="14" font-style="normal" font-weight="normal" height="20" sym:characterBackgroundFill="none" sym:textboxFill="none" sym:textboxStroke="rgb(0,0,0)" sym:textboxStroke-width="1" sym:wordWrap="false" text-anchor="start" width="120" x="60" y="90">
+					ReportTextSource:'	' 
+do :Solution { 
+	:Identifier
+	if not :Public?; then
+		' not public!'
+	endif
+}
+
+					<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+				</textArea>
+			</svg>
+		</objectSymbol>
+	</librarySymbol>
+	<librarySymbol name="ToBeSupported">
+		<objectSymbol offset="110,40" scaleFilter="1,1">
+			<defaultConnectable isSticky="true" points="110,40 130,40 130,60 110,60 110,40" targetPointX="120" targetPointY="50" usesGrid="false"></defaultConnectable>
+			<svg baseProfile="tiny" height="60" version="1.2" width="130" xmlns="http://www.w3.org/2000/svg">
+				<g fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-width="0" sym:height="16" sym:width="16" sym:x="1.115e2" sym:y="4.25e1">
+					<rect fill="rgb(255,255,255)" height="9.6" rx="0" ry="0" stroke="rgb(0,0,0)" stroke-width="0" width="16" x="111.5" y="45.7">
+						<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+					</rect>
+					<rect fill="rgb(255,255,255)" height="3.2" rx="0" ry="0" stroke="rgb(0,0,0)" stroke-width="0" width="6.4" x="111.5" y="42.5">
+						<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+					</rect>
+					<rect fill="rgb(255,255,255)" height="3.2" rx="0" ry="0" stroke="rgb(0,0,0)" stroke-width="0" width="6.4" x="121.1" y="55.3">
+						<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+					</rect>
+					<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+				</g>
+				<rect fill="none" height="20" rx="0" ry="0" stroke="none" stroke-width="1" width="20" x="110" y="40">
+					<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+				</rect>
+			</svg>
+		</objectSymbol>
+	</librarySymbol>
+	<librarySymbol name="Undeveloped">
+		<objectSymbol offset="40,20" scaleFilter="0,0">
+			<defaultConnectable isSticky="true" points="40,20 60,20 60,40 40,40 40,20" targetPointX="50" targetPointY="30" usesGrid="false"></defaultConnectable>
+			<svg baseProfile="tiny" height="40" version="1.2" width="60" xmlns="http://www.w3.org/2000/svg">
+				<polygon fill="none" points="50,20 40,30 50,40 60,30" stroke="rgb(0,0,0)" stroke-width="1">
+					<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+				</polygon>
+			</svg>
+		</objectSymbol>
+	</librarySymbol>
+	<librarySymbol name="Uninstantiated">
+		<objectSymbol offset="40,20" scaleFilter="0,0">
+			<defaultConnectable isSticky="true" points="40,20 60,20 60,40 40,40 40,20" targetPointX="50" targetPointY="30" usesGrid="false"></defaultConnectable>
+			<svg baseProfile="tiny" height="30" version="1.2" width="60" xmlns="http://www.w3.org/2000/svg">
+				<polygon fill="none" points="50,20 40,30 60,30" stroke="rgb(0,0,0)" stroke-width="1">
+					<metaInfo xmlns="http://www.metacase.com/symbol"></metaInfo>
+				</polygon>
+			</svg>
+		</objectSymbol>
+	</librarySymbol>
+</symbolLibrary>
